@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    window.location.href = "/Data.pdf"; // PDF must be in /public folder
+    window.location.href = "/Data.pdf"; 
   }, []);
 
-  return null; // Don’t show anything else
+  return null; 
 }
 
 export default App;
